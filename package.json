@@ -28,11 +28,11 @@
     "extends @edx/browserslist-config"
   ],
   "dependencies": {
-    "@edx/brand": "npm:@edx/brand-edx.org@2.2.0-alpha.9",
+    "@edx/brand": "https://github.com/milad-emami/brand-edx.org#v2.2.0-alpha.17",
     "@edx/frontend-component-footer": "12.0.0",
     "@edx/frontend-component-header": "4.0.0",
-    "@edx/frontend-platform": "4.5.0",
-    "@edx/paragon": "21.0.0-alpha.36",
+    "@edx/frontend-platform": "github:openedx/frontend-platform#ags/inject-theme-css",
+    "@edx/paragon": "21.0.0-alpha.40",
     "@fortawesome/fontawesome-svg-core": "1.2.36",
     "@fortawesome/free-brands-svg-icons": "5.15.4",
     "@fortawesome/free-regular-svg-icons": "5.15.4",
