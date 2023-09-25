@@ -68,6 +68,7 @@ class ProfilePage extends React.Component {
     sendTrackingLogEvent('edx.profile.viewed', {
       username: this.props.match.params.username,
     });
+    this.context.paragonTheme.setThemeVariant('light');
   }
 
   handleSaveProfilePhoto(formData) {
@@ -95,8 +96,9 @@ class ProfilePage extends React.Component {
   }
 
   handleToggleParagonThemeVariant() {
-    const nextThemeVariant = this.context.paragonTheme.state.themeVariant === 'light' ? 'invalid' : 'light';
+    const nextThemeVariant = this.context.paragonTheme.state.themeVariant === 'light' ? 'edSPIRIT' : 'light';
     this.context.paragonTheme.setThemeVariant(nextThemeVariant);
+    console.log('theme', this.context);
   }
 
   isYOBDisabled() {
