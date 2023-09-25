@@ -1,5 +1,5 @@
-import { messages as headerMessages } from '@edx/frontend-component-header';
-import { messages as footerMessages } from '@edx/frontend-component-footer';
+// import { messages as headerMessages } from '@edx/frontend-component-header';
+// import { messages as footerMessages } from '@edx/frontend-component-footer';
 
 import arMessages from './messages/ar.json';
 import frMessages from './messages/fr.json';
@@ -29,7 +29,7 @@ const appMessages = {
 };
 
 export default [
-  headerMessages,
-  footerMessages,
+  // headerMessages,
+  // footerMessages,
   appMessages,
 ];

@@ -31,11 +31,11 @@ subscribe(APP_READY, () => {
   ReactDOM.render(
     <AppProvider store={configureStore()}>
       <Head />
-      <Header />
+      {/* <Header /> */}
       <main>
         <AppRoutes />
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </AppProvider>,
     document.getElementById('root'),
   );
