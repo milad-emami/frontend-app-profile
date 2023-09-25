@@ -17,6 +17,12 @@
 @use "@edx/paragon/styles/css/core/custom-media-breakpoints.css" as paragonCustomMediaBreakpoints;
 @use "@edx/brand/paragon/css/core/custom-media-breakpoints.css" as brandCustomMediaBreakpoints;
 
+@use "@edx/paragon/dist/core.min.css" as paragonCore;
+@use "@edx/paragon/dist/light.min.css" as paragonLight;
+
+@use "@edx/brand/dist/core.min.css" as brandCore;
+@use "@edx/brand/dist/light.min.css" as brandLight;
+@use "@edx/brand/dist/edSPIRIT.min.css" as brandedSPIRIT;
 /**
  * 2(a). If using locally installed CSS, include the core.min.css and light.min.css files from @edx/paragon
  * and @edx/brand.
@@ -37,8 +43,8 @@
  * 
  * See https://github.com/openedx/paragon/issues/2348 for more details.
  */
-@import "~@edx/frontend-component-header/dist/index";
-@import "~@edx/frontend-component-footer/dist/footer";
+// @import "~@edx/frontend-component-header/dist/index";
+// @import "~@edx/frontend-component-footer/dist/footer";
 
 @import './profile/index';
 
